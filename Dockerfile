@@ -1,7 +1,8 @@
 #
 # Caddy web server for hkjn.me.
 #
-FROM alpine
+# TODO: Set up x86_64 vs armv7l base images to build on separate tags? Or separate repo?
+FROM resnullius/alpine-armv7l
 
 MAINTAINER Henrik Jonsson <me@hkjn.me>
 
